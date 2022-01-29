@@ -36,6 +36,12 @@ body::before {
     background: #040404 url("../img/bg2.jpg") top right no-repeat;
   }
 }
+@media (max-width: 1181px) and (max-height: 821px)  {
+  body::before {
+    background: #040404 url("../img/bg3.jpg") top right no-repeat;
+    background-attachment: center;
+  }
+}
 
 a {
   color: #18d26e;
